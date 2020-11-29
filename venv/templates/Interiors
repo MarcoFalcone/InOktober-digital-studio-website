@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Interiors</title>
+  <link type="text/css" rel="stylesheet" href="static/styleinteriors.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="main">
+    <div class="color1"></div>
+    <div class="color2"></div>
+    <div class="color3"></div>
+    <div class="color4"></div>
+    <div class="color5"></div>
+    <div class="color6"></div>
+    <p class="header">A series of personal projects designed and rendered by InOktober.</p>
+    <div class="container">
+      <img class="long" src="static/images/interiors/BANCONE BAR.png">
+      <img class="long" src="static/images/interiors/pink bath.png">
+      <img class="long" src="static/images/interiors/pscina.png">
+      <img class="long" src="static/images/interiors/popshopfinitoultima.png">
+      <img class="square" src="static/images/interiors/Corner 1.png">
+      <img class="square" src="static/images/interiors/corner 2.png">
+      <img class="square" src="static/images/interiors/corner 3.png">
+      <img class="square" src="static/images/interiors/corner1.png">
+      <img class="square" src="static/images/interiors/index.jpg">
+      <img class="square" src="static/images/interiors/TYLKO RENDER.png">
+    </div>
+    <a href="/" class="backhome"><img class="backhome" src="static/images/home.png"></a>
+    <a href="/" class="backhome2"><img class="backhome2" src="static/images/home.png"></a>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+   <script src="static/app.js"></script>
+
+ </body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Collabs</title>
+  <link type="text/css" rel="stylesheet" href="static/stylecollab.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="main">
+    <div class="color1"></div>
+    <div class="color2"></div>
+    <div class="color3"></div>
+    <div class="color4"></div>
+    <div class="color5"></div>
+    <div class="color6"></div>
+    <p class="header">Living room and kitchen in Amsterdam. Designed by Numinow, rendered by InOktober.</p>
+    <div class="container">
+      <img src="static/images/collab/index.jpg">
+      <img src="static/images/collab/index2.jpg">
+      <img src="static/images/collab/index3.jpg">
+      <img src="static/images/collab/index4.jpg">
+      <img src="static/images/collab/index5.jpg">
+      <img src="static/images/collab/index6.jpg">
+      <img src="static/images/collab/KITCHEN .png">
+      <img src="static/images/collab/LIVING ROOM 3.png">
+      <img src="static/images/collab/living room done .png">
+    </div>
+    <a href="/" class="backhome"><img class="backhome" src="static/images/home.png"></a>
+    <a href="/" class="backhome2"><img class="backhome2" src="static/images/home.png"></a>
+    </div>
+
+      <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+      <script src="static/app.js"></script>
+
+   </body>
+
+  </html>
