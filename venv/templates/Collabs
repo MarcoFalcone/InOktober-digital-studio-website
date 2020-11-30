@@ -31,8 +31,7 @@
       <img src="static/images/collab/LIVING ROOM 3.png">
       <img src="static/images/collab/living room done .png">
     </div>
-    <a href="/" class="backhome"><img class="backhome" src="static/images/home.png"></a>
-    <a href="/" class="backhome2"><img class="backhome2" src="static/images/home.png"></a>
+    <a href="/" class="backhome" target="_self"><img class="backhome" src="static/images/home.png"></a>
     </div>
 
       <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
