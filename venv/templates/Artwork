@@ -23,15 +23,15 @@
       <video src="static/images/artwork/ball.mp4" type="video/mp4" autoplay loop></video>
       <video src="static/images/artwork/man1.mp4" type="video/mp4" autoplay loop></video>
       <video src="static/images/artwork/man2.mp4" type="video/mp4" autoplay loop></video>
-      <img src="static/images/artwork/FLUFFY RENDER .jpg">
-      <img src="static/images/artwork/1.png">
-      <img src="static/images/artwork/artwork finito.png">
-      <img src="static/images/artwork/blue wale.png">
-      <img src="static/images/artwork/face.png">
-      <img src="static/images/artwork/heart.png">
-      <img src="static/images/artwork/man.png">
+      <img class="long" src="static/images/artwork/FLUFFY RENDER .jpg">
+      <img class="square" src="static/images/artwork/1.png">
+      <img class="square" src="static/images/artwork/artwork finito.png">
+      <img class="square" src="static/images/artwork/blue wale.png">
+      <img class="long" src="static/images/artwork/face.png">
+      <img class="long" src="static/images/artwork/heart.png">
+      <img class="square" src="static/images/artwork/man.png">
     </div>
-    <a href="/" class="backhome" target="_self"><img class="backhome" src="static/images/home.png"></a>
+    <a href="/" class="backhome"><img class="backhome" src="static/images/home.png"></a>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>

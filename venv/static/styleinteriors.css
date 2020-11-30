@@ -107,26 +107,34 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 90vw;
-  height: 90vh;
+  width: 66.8vw;
+  height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
   left: 0;
   right: 0;
-  margin: 10vh auto;
+  margin: 0 auto;
   opacity: 0;
   animation: fadein 1s ease-out 1s forwards;
 }
 
 img {
-  width: auto;
   height: auto;
   margin-bottom: 30px;
 }
 
+.long {
+  width: 100%;
+}
+
+.square {
+  width: auto;
+}
+
 .backhome {
   position: absolute;
-  width: 50px;
+  width: 40px;
+  margin: 5px;
   height: auto;
   text-decoration: none;
   color: black;
@@ -136,9 +144,8 @@ img {
 
 .header {
   position: absolute;
-  width: 100%;
-  text-align: center;
-  margin-top: 5vh;
+  width: 16.7%;
+  margin: 15vh 5px;
   color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
@@ -153,7 +160,7 @@ img {
   }
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 1024px) {
 
   .container {
     width: 95vw;
@@ -164,6 +171,10 @@ img {
   img {
     width: 100%;
     height: auto;
+  }
+
+  .square {
+    width: 100%;
   }
 
   .header {
