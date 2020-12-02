@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   scrollbar-width: thin;
-  scrollbar-color: black #f3dadb;
+  scrollbar-color: black transparent;
   scrollbar-radius: 20px;
 }
 
@@ -11,7 +11,7 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: #f3dadb;
+  background: transparent;
 }
 *::-webkit-scrollbar-thumb {
   background-color: black;
@@ -45,7 +45,7 @@ html, body {
   background-color: #d2c3d8;
   transition: .2s ease;
   opacity: 0;
-  animation: fadein 1s ease-out 0.3s forwards;
+  animation: fadein 1s ease 0.1s forwards;
 }
 
 .color1:hover {
@@ -56,7 +56,7 @@ html, body {
   background-color: #f8cbd1;
   transition: .2s ease;
   opacity: 0;
-  animation: fadein 1s ease-out 0.4s forwards;
+  animation: fadein 1s ease 0.2s forwards;
 }
 
 .color2:hover {
@@ -67,7 +67,7 @@ html, body {
   background-color: #f7e5d7;
   transition: .2s ease;
   opacity: 0;
-  animation: fadein 1s ease-out 0.5s forwards;
+  animation: fadein 1s ease 0.3s forwards;
 }
 
 .color3:hover {
@@ -78,7 +78,7 @@ html, body {
   background-color: #f6f2ec;
   transition: .2s ease;
   opacity: 0;
-  animation: fadein 1s ease-out 0.6s forwards;
+  animation: fadein 1s ease 0.4s forwards;
 }
 
 .color4:hover {
@@ -89,7 +89,7 @@ html, body {
   background-color: #c4bfdb;
   transition: .2s ease;
   opacity: 0;
-  animation: fadein 1s ease-out 0.7s forwards;
+  animation: fadein 1s ease 0.5s forwards;
 }
 
 .color5:hover {
@@ -100,7 +100,7 @@ html, body {
   background-color: #f3dadb;
   transition: .2s ease;
   opacity: 0;
-  animation: fadein 1s ease-out 0.8s forwards;
+  animation: fadein 1s ease 0.6s forwards;
 }
 
 .color6:hover {
@@ -113,18 +113,18 @@ html, body {
   flex-wrap: wrap;
   justify-content: space-around;
   width: 66.8vw;
-  height: 100vh;
+  height: 98vh;
   overflow-y: auto;
   left: 0;
   right: 0;
-  margin: 0 auto;
+  margin: 1vh auto;
   opacity: 0;
   animation: fadein 1s ease-out 1s forwards;
 }
 
 img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
   margin-bottom: 30px;
 }
 

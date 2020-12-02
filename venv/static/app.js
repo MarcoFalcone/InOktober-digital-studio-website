@@ -1,4 +1,4 @@
-//fadepage//
+//fadeoutpage//
 jQuery('.work1, .work2, .work3, .backhome, .backhome2').click(function(e) {
   e.preventDefault();
   newLocation = this.href;
@@ -8,14 +8,14 @@ function newpage() {
   window.location = newLocation;
 }
 
-//reloadpage//
+//reloadpageonbackbutton//
 $(window).bind("pageshow", function(event) {
   if (event.originalEvent.persisted) {
     window.location.reload();
   }
 });
 
-//hideanchorlinkurl and smoothscrool//
+//hide anchor-link on the url on mobile and smoothscroll//
 $('.down1').click(function (e) {
     e.preventDefault();
 
@@ -23,7 +23,6 @@ $('.down1').click(function (e) {
         scrollTop: $("#txt").offset().top - 0
     }, 600);
 });
-
 $('.down2').click(function (e) {
     e.preventDefault();
 
@@ -40,9 +39,13 @@ $(".about").hover(function(){
   $(".workscont").removeClass("hideworks")
   $(".abouttxt").removeClass("showabout");
 })
-
 $(".contact").hover(function(){
   $(".workscont").addClass("hideworks")
+  $(".contactform").addClass("pointerevent") //if pointer quickly hovers again on the form it interrupts the fade out because of the .8s transition, this fixes that making a clean fade out//
 },function(){
   $(".workscont").removeClass("hideworks")
+})
+$(".contactform").hover(function(){
+},function(){
+  $(".contactform").removeClass("pointerevent")
 })
