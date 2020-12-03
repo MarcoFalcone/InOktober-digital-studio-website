@@ -1,3 +1,7 @@
+window.onload=function() {
+    document.getElementById('load').style.display='none';
+}
+
 //fadeoutpage//
 jQuery('.work1, .work2, .work3, .backhome, .backhome2').click(function(e) {
   e.preventDefault();
@@ -54,10 +58,3 @@ $(".contactform").hover(function(){
 $(window).bind('orientationchange', function (event) {
     location.reload(true);
 });
-
-//prevent the softkeyboard to change layout on android//
-var meta = document.createElement('meta');
-meta.name = 'viewport';
-meta.content = 'width=device-width,height='+window.innerHeight+', initial-scale=1.0';
-document.getElementsByTagName('head')[0].appendChild(meta);
-
