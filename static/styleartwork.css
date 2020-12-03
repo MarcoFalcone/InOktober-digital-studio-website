@@ -105,8 +105,8 @@
 .container {
   position: absolute;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
   width: 66.8vw;
   height: 98vh;
   overflow-y: auto;
