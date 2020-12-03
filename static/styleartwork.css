@@ -179,6 +179,8 @@ video {
     width: 98vw;
     margin: 20vh auto 0;
     height: 80vh;
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
   }
 
   .square {
