@@ -21,18 +21,18 @@
     <div class="color5"></div>
     <div class="color6"></div>
     <div class="container">
-      <video src="static/images/artwork/ball.mp4" type="video/mp4" autoplay loop></video>
-      <video src="static/images/artwork/man1.mp4" type="video/mp4" autoplay loop></video>
-      <video src="static/images/artwork/man2.mp4" type="video/mp4" autoplay loop></video>
-      <img class="long" src="static/images/artwork/FLUFFY RENDER .jpg">
-      <img class="square" src="static/images/artwork/1.png">
-      <img class="square" src="static/images/artwork/artwork finito.png">
-      <img class="square" src="static/images/artwork/blue wale.png">
-      <img class="square" src="static/images/artwork/face.png">
-      <img class="square" src="static/images/artwork/heart.png">
-      <img class="square" src="static/images/artwork/man.png">
+      <video src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/ball_W8Sv0a-kgA_V6.mp4" type="video/mp4" autoplay loop></video>
+      <video src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/man1_n4P1rdgE0OlZ.mp4" type="video/mp4" autoplay loop></video>
+      <video src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/man2_XngVa3Rx-v6hI.mp4" type="video/mp4" autoplay loop></video>
+      <img class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/FLUFFY_RENDER__u3jX7AUr6XEa.jpg">
+      <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/1_2SgL2eKCHjLc.png">
+      <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/artwork_finito_0jpNm63nAwBd.png">
+      <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/blue_wale_j-_SoDU-q3Gdc.png">
+      <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/face_kLAEZuYAwcY3_.png">
+      <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/heart_WCXUgTpcHFSM4.png">
+      <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/man_CGDOa6zQRzo2e.png">
     </div>
-    <a href="/" class="backhome"><img class="backhome" src="static/images/home.png"></a>
+    <a href="/" class="backhome"><img class="backhome" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/home_Id-kwRpUtIBK4.png"></a>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>

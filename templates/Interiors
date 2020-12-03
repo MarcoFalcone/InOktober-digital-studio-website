@@ -22,18 +22,18 @@
     <div class="color6"></div>
     <p class="header">A series of personal projects designed and rendered by InOktober.</p>
     <div class="container">
-      <img class="long" src="static/images/interiors/BANCONE BAR.png">
-      <img class="long" src="static/images/interiors/pink bath.png">
-      <img class="long" src="static/images/interiors/pscina.png">
-      <img class="long" src="static/images/interiors/popshopfinitoultima.png">
-      <img class="square" src="static/images/interiors/Corner 1.png">
-      <img class="square" src="static/images/interiors/corner 2.png">
-      <img class="square" src="static/images/interiors/corner 3.png">
-      <img class="square" src="static/images/interiors/corner1.png">
-      <img class="square" src="static/images/interiors/index.jpg">
-      <img class="square" src="static/images/interiors/TYLKO RENDER.png">
+      <img class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/BANCONE_BAR_TgC6s17psyZoi.png">
+      <img class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/pink_bath_vXfLjt5Ap_ahn.png">
+      <img class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/pscina_PMhEg9mnPTqo2.png">
+      <img class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/popshopfinitoultima_4YwtuYfEfn4o.png">
+      <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/corner1_vh5tSE1h1CC5_.png">
+      <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/corner_2_dfyDWAwPiLMB2.png">
+      <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/corner_3_8witiBgaFmHB.png">
+      <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/Corner_1_C7iSFXAVJKfGz.png">
+      <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/index_qb9pPwu3ZS8W.jpg">
+      <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/TYLKO_RENDER_X8Q38TMpPO8V.png">
     </div>
-    <a href="/" class="backhome"><img class="backhome" src="static/images/home.png"></a>
+    <a href="/" class="backhome"><img class="backhome" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/home_Id-kwRpUtIBK4.png"></a>
    </div>
 
    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
