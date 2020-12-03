@@ -1,7 +1,3 @@
-window.onload=function() {
-    document.getElementById('load').style.display='none';
-}
-
 //fadeoutpage//
 jQuery('.work1, .work2, .work3, .backhome, .backhome2').click(function(e) {
   e.preventDefault();
