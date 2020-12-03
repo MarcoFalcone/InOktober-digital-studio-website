@@ -171,17 +171,23 @@ video {
 
 @media screen and (max-width: 1024px) {
 
-    *::-webkit-scrollbar {
-   width: 4px;
-}
-
   .container {
     width: 98vw;
-    margin: 20vh auto 0;
-    height: 80vh;
+    height: 79vh;
+    margin: 0 auto 1vh;
+    padding: 20vh 0 0;
     overflow-y: scroll !important;
     -webkit-overflow-scrolling: touch;
   }
+
+  .container::-webkit-scrollbar {
+  display: none;
+}
+
+  .container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 
   .square {
     width: 100%;
