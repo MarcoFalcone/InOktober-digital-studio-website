@@ -160,8 +160,12 @@ img {
 
 @media screen and (max-width: 1024px) {
 
+  *::-webkit-scrollbar {
+   width: 4px;
+}
+
   .container {
-    width: 95vw;
+    width: 98vw;
     margin: 20vh auto 0;
     height: 80vh;
   }
