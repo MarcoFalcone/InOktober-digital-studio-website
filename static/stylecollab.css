@@ -157,6 +157,7 @@ img {
 
   .main {
     pointer-events: none;
+    position: fixed;
   }
 
   .container {
