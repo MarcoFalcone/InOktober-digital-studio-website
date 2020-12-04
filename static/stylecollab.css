@@ -155,8 +155,11 @@ img {
 
 @media screen and (max-width: 1024px) {
 
-  .container {
+  .main {
     position: fixed;
+  }
+
+  .container {
     width: 98vw;
     height: 80vh;
     margin: 0 auto 1vh;
