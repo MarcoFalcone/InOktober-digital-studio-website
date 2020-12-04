@@ -155,6 +155,10 @@ img {
 
 @media screen and (max-width: 1024px) {
 
+  .main {
+   transform: translate3d(0,0,0);
+}
+
   .container {
     width: 98vw;
     height: 80vh;
