@@ -166,6 +166,7 @@ img {
     padding: 20vh 0 0;
     overflow-y: scroll !important;
     -webkit-overflow-scrolling: touch;
+    pointer-events: all;
   }
 
   .container::-webkit-scrollbar {
