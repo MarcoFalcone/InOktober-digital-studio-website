@@ -157,6 +157,7 @@ img {
 
   .main {
     position: absolute;
+    height: 100%;
   }
 
   .container {
