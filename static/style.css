@@ -204,10 +204,12 @@
   cursor: pointer;
   pointer-events: all;
   opacity: 0;
+  transition: all 0.3s ease-in-out;
   animation: fadein 1s ease 1s forwards;
 }
 
-.work1 p {
+
+.collabs {
   position: absolute;
   font-family: 'Cormorant Garamond', serif;
   color: black;
@@ -215,31 +217,46 @@
   height: 70px;
   font-size: 50px;
   margin: auto;
+  opacity: 0;
+  transition: .3s ease 0.1s;
   top: 0; left: 0; bottom: 0; right: 0;
 }
 
-.work2 p{
+
+.interiors {
   position: absolute;
   font-size: 50px;
   font-family: 'Cormorant Garamond', serif;
   color: black;
   margin: auto;
+  opacity: 0;
+  transition: .3s ease 0.1s;
   top: 0; left: 0; bottom:0; right: 0;
   width:  260px;
   height: 70px;
 }
-.work3 p {
+
+.artwork {
   position: absolute;
   font-size: 50px;
   font-family: 'Cormorant Garamond', serif;
   color: black;
   margin: auto;
+  opacity: 0;
+  transition: .3s ease 0.1s;
   top: 0; left: 0; bottom: 0; right: 0;
   width:  250px;
   height: 70px;
 }
 
+.fadein {
+  opacity: 1;
+}
 
+.transform {
+  box-shadow: 50px 50px 50px rgba(0,0,0,0.5);
+  transform: scale(1.1);
+}
 .abouttxt {
   position: absolute;
   display: flex;
@@ -397,6 +414,13 @@
   }
 }
 
+@keyframes fadeshadow {
+
+  100%{
+    box-shadow: 50px 50px 50px rgba(0,0,0,0.5);
+    }
+}
+
 /*1440p*/
 @media screen and (min-width: 2560px) {
   .header {
@@ -521,22 +545,25 @@
     animation: fadein 1s ease-out 1s forwards;
   }
 
-  .work1 p {
+  .collabs {
     font-size: 40px;
     width: 170px;
     height: 50px;
+    opacity: 1;
   }
 
-  .work2 p{
+  .interiors{
     font-size: 40px;
     width: 210px;
     height: 50px;
+    opacity: 1;
   }
 
-  .work3 p {
+  .artwork {
     font-size: 40px;
     width: 200px;
     height: 50px;
+    opacity: 1;
   }
 
   .down1,
@@ -716,22 +743,25 @@
     animation: fadein 1s ease-out 1s forwards;
   }
 
-  .work1 p {
+  .collabs {
     font-size: 30px;
     width: 130px;
     height: 40px;
+    opacity: 1;
   }
 
-  .work2 p {
+  .interiors {
     font-size: 30px;
     width: 155px;
     height: 40px;
+    opacity: 1;
   }
 
-  .work3 p {
+  .artwork {
     font-size: 30px;
     width: 150px;
     height: 40px;
+    opacity: 1;
   }
 
   .down1,
