@@ -13,16 +13,17 @@
 *::-webkit-scrollbar-track {
   background: transparent;
 }
+
 *::-webkit-scrollbar-thumb {
   background-color: black;
   border-radius: 20px;
 }
 
 .main {
-  position: relative;
+  position: absolute;
   display: flex;
   flex-flow: row;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -105,9 +106,9 @@
 .container {
   position: absolute;
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
   align-items: center;
-  width: 66.8vw;
+  width: 80vw;
   height: 98vh;
   overflow-y: auto;
   left: 0;
@@ -146,37 +147,34 @@ img {
 }
 
 @keyframes fadein {
-
-  100%{
+  100% {
     opacity: 1;
   }
 }
 
-
 @media screen and (max-width: 1024px) {
 
-  .main {
-    position: fixed;
-  }
-
   .container {
-    width: 98vw;
-    height: 80vh;
+    width: 98%;
+    height: 100%;
     margin: 0 auto;
-    padding: 20vh 0 0;
+    padding: 20vh 0 ;
     overflow-y: scroll !important;
     -webkit-overflow-scrolling: touch;
-    min-height: -webkit-fill-available;
+    height: -webkit-fill-available;
+    box-sizing: border-box;
   }
 
   .container::-webkit-scrollbar {
-  display: none;
-}
+    display: none;
+  }
 
   .container {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
 
   img {
     width: 100%;
