@@ -154,10 +154,6 @@ img {
 
 
 @media screen and (max-width: 1024px) {
-  .main {
-    height: 100vh;
-    height: -webkit-fill-available;
-  }
 
   .container {
     width: 98vw;
@@ -166,7 +162,6 @@ img {
     padding: 20vh 0 0;
     overflow-y: scroll !important;
     -webkit-overflow-scrolling: touch;
-    height: -webkit-fill-available;
   }
 
   .container::-webkit-scrollbar {
