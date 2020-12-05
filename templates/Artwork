@@ -23,9 +23,9 @@
     </div>
 
     <div class="container">
-      <video src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/ball_W8Sv0a-kgA_V6.mp4?tr=h-auto,w-auto" type="video/mp4" autoplay loop></video>
-      <video src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/man1_n4P1rdgE0OlZ.mp4" type="video/mp4" autoplay loop></video>
-      <video src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/man2_XngVa3Rx-v6hI.mp4" type="video/mp4" autoplay loop></video>
+      <video src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/ball_W8Sv0a-kgA_V6.mp4?tr=h-auto,w-auto" type="video/mp4" autoplay loop muted playsinline></video>
+      <video src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/man1_n4P1rdgE0OlZ.mp4" type="video/mp4" autoplay loop muted playsinline></video>
+      <video src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/man2_XngVa3Rx-v6hI.mp4" type="video/mp4" autoplay loop muted playsinline></video>
       <img class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/FLUFFY_RENDER__u3jX7AUr6XEa.jpg">
       <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/1_2SgL2eKCHjLc.png">
       <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/artwork_finito_0jpNm63nAwBd.png">
