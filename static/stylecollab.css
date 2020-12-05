@@ -158,7 +158,7 @@ img {
     position: fixed;
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 110%;
     width: 100%;
   }
 
