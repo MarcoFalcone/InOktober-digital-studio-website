@@ -12,6 +12,16 @@
 
 <body>
 
+  <div class="main">
+    <div class="color1"></div>
+    <div class="color2"></div>
+    <div class="color3"></div>
+    <div class="color4"></div>
+    <div class="color5"></div>
+    <div class="color6"></div>
+    <p class="header">Living room and kitchen in Amsterdam. Designed by Numinow, rendered by InOktober.</p>
+  </div>
+
   <div class="container">
     <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index5_Np1w5eAkLAytx.jpg">
     <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index_f1wYvf-Mdk7aH.jpg">
@@ -24,16 +34,7 @@
     <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/living_room_done__F_xXy5N4803h.png">
   </div>
 
-  <div class="main">
-    <div class="color1"></div>
-    <div class="color2"></div>
-    <div class="color3"></div>
-    <div class="color4"></div>
-    <div class="color5"></div>
-    <div class="color6"></div>
-    <p class="header">Living room and kitchen in Amsterdam. Designed by Numinow, rendered by InOktober.</p>
-    <a href="/" class="backhome" target="_self"><img class="backhome" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/home_Id-kwRpUtIBK4.png"></a>
-    </div>
+  <a href="/" class="backhome" target="_self"><img class="backhome" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/home_Id-kwRpUtIBK4.png"></a>
 
       <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
       <script src="static/app.js"></script>

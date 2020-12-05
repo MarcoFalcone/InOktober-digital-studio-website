@@ -154,27 +154,29 @@ img {
 
 @media screen and (max-width: 1024px) {
 
-  .container {
-    z-index: 1;
-    width: 98%;
+  .main {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
     height: 100%;
+    width: 100%;
+  }
+
+  .container {
+    width: 98%;
+    height: auto;
     margin: 0 auto;
-    padding: 10vh 0;
-    overflow-y: scroll !important;
-    -webkit-overflow-scrolling: touch;
+    padding: 20vh 0 10vh;
     height: -webkit-fill-available;
     box-sizing: border-box;
   }
 
-  .container::-webkit-scrollbar {
-    display: none;
+  .backhome {
+    position: fixed;
   }
 
-  .container {
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
+  *::-webkit-scrollbar {
+    display: none;
   }
 
   img {
