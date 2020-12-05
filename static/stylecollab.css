@@ -167,8 +167,9 @@ img {
     height: auto;
     margin: 0 auto;
     padding: 20vh 0 10vh;
-    height: -webkit-fill-available;
     box-sizing: border-box;
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
   }
 
   .backhome {
