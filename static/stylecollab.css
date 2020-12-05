@@ -155,10 +155,11 @@ img {
 @media screen and (max-width: 1024px) {
 
   .container {
+    z-index: 1;
     width: 98%;
     height: 100%;
     margin: 0 auto;
-    padding: 20vh 0 ;
+    padding: 10vh 0;
     overflow-y: scroll !important;
     -webkit-overflow-scrolling: touch;
     height: -webkit-fill-available;

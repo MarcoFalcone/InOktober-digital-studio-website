@@ -12,6 +12,17 @@
 
 <body>
 
+  <div class="container">
+    <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index5_Np1w5eAkLAytx.jpg">
+    <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index_f1wYvf-Mdk7aH.jpg">
+    <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index4_gN6dCQmuPI9vZ.jpg">
+    <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index6__p1LJk2X7-tRx.jpg">
+    <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index3_uvZVYxr94khGb.jpg">
+    <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index2_bjXXt2xX0HtO.jpg">
+    <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/KITCHEN__ZBXn06TAcKzch.png">
+    <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/LIVING_ROOM_3_63JdvAdG3Xh2r.png">
+    <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/living_room_done__F_xXy5N4803h.png">
+  </div>
 
   <div class="main">
     <div class="color1"></div>
@@ -21,17 +32,6 @@
     <div class="color5"></div>
     <div class="color6"></div>
     <p class="header">Living room and kitchen in Amsterdam. Designed by Numinow, rendered by InOktober.</p>
-    <div class="container">
-      <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index5_Np1w5eAkLAytx.jpg">
-      <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index_f1wYvf-Mdk7aH.jpg">
-      <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index4_gN6dCQmuPI9vZ.jpg">
-      <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index6__p1LJk2X7-tRx.jpg">
-      <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index3_uvZVYxr94khGb.jpg">
-      <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index2_bjXXt2xX0HtO.jpg">
-      <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/KITCHEN__ZBXn06TAcKzch.png">
-      <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/LIVING_ROOM_3_63JdvAdG3Xh2r.png">
-      <img src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/living_room_done__F_xXy5N4803h.png">
-    </div>
     <a href="/" class="backhome" target="_self"><img class="backhome" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/home_Id-kwRpUtIBK4.png"></a>
     </div>
 
