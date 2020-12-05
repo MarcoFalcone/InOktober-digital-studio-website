@@ -154,8 +154,15 @@ img {
 
 
 @media screen and (max-width: 1024px) {
+
   body {
-  position: relative;
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
 }
 
   .container {
