@@ -146,7 +146,12 @@ video {
   text-decoration: none;
   color: black;
   opacity: 0;
+  transition: ease 0.5s;
   animation: fadein 1s ease-out 1s forwards;
+}
+
+.backhome:hover {
+  transform: scale(1.1);
 }
 
 .header {
