@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +12,13 @@
 
 .header {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 520px;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   margin-top: 0;
   margin-left: 36.6%;
 }
@@ -20,7 +31,8 @@
   height: 82px;
   margin-right: 5px;
   opacity: 0;
-  animation: fadein 1s ease 1s forwards;
+  -webkit-animation: fadein 1s ease 1s forwards;
+          animation: fadein 1s ease 1s forwards;
 }
 
 .line1 {
@@ -30,7 +42,8 @@
   position: absolute;
   top: 95%;
   left: -8%;
-  animation: slideleft 2s ease;
+  -webkit-animation: slideleft 2s ease;
+          animation: slideleft 2s ease;
 }
 
 .line2 {
@@ -40,14 +53,16 @@
   position: absolute;
   z-index: 1;
   top: 50%;
-  animation: slideup 2s ease;
+  -webkit-animation: slideup 2s ease;
+          animation: slideup 2s ease;
 }
 .name2 {
   font-size: 30px;
   font-family: 'Cormorant Garamond', serif;
   cursor: default;
   opacity: 0;
-  animation: fadein 1s ease 1s forwards;
+  -webkit-animation: fadein 1s ease 1s forwards;
+          animation: fadein 1s ease 1s forwards;
 }
 
 .insta {
@@ -57,20 +72,31 @@
   height: 25px;
   width: auto;
   opacity: 0;
+  -webkit-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
   transition: ease 0.5s;
-  animation: fadein 1s ease 1s forwards;
+  -webkit-animation: fadein 1s ease 1s forwards;
+          animation: fadein 1s ease 1s forwards;
 }
 
 .insta:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .bar {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   top: 95%;
   left: -12.8%;
+  -webkit-transition: .8s ease;
+  -o-transition: .8s ease;
   transition: .8s ease;
 }
 
@@ -81,7 +107,8 @@
   cursor: crosshair;
   margin-right: 7px;
   opacity: 0;
-  animation: fadein 1s ease 1s forwards;
+  -webkit-animation: fadein 1s ease 1s forwards;
+          animation: fadein 1s ease 1s forwards;
 }
 
 .contact {
@@ -90,14 +117,20 @@
   font-family: 'Cormorant Garamond', serif;
   cursor: crosshair;
   opacity: 0;
-  animation: fadein 1s ease 1s forwards;
+  -webkit-animation: fadein 1s ease 1s forwards;
+          animation: fadein 1s ease 1s forwards;
   z-index: 1;
 }
 
 .main {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 70vh;
   width: 80%;
   margin: 10vh auto 0;
@@ -115,9 +148,12 @@
 
 .color1 {
   background-color: #d2c3d8;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
   opacity: 0;
-  animation: fadein 1s ease 0.1s forwards;
+  -webkit-animation: fadein 1s ease 0.1s forwards;
+          animation: fadein 1s ease 0.1s forwards;
 }
 
 .color1:hover {
@@ -126,9 +162,12 @@
 
 .color2 {
   background-color: #f8cbd1;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
   opacity: 0;
-  animation: fadein 1s ease 0.2s forwards;
+  -webkit-animation: fadein 1s ease 0.2s forwards;
+          animation: fadein 1s ease 0.2s forwards;
 }
 
 .color2:hover {
@@ -137,9 +176,12 @@
 
 .color3 {
   background-color: #f7e5d7;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
   opacity: 0;
-  animation: fadein 1s ease 0.3s forwards;
+  -webkit-animation: fadein 1s ease 0.3s forwards;
+          animation: fadein 1s ease 0.3s forwards;
 }
 
 .color3:hover {
@@ -148,9 +190,12 @@
 
 .color4 {
   background-color: #f6f2ec;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
   opacity: 0;
-  animation: fadein 1s ease 0.4s forwards;
+  -webkit-animation: fadein 1s ease 0.4s forwards;
+          animation: fadein 1s ease 0.4s forwards;
 }
 
 .color4:hover {
@@ -159,9 +204,12 @@
 
 .color5 {
   background-color: #c4bfdb;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
   opacity: 0;
-  animation: fadein 1s ease 0.5s forwards;
+  -webkit-animation: fadein 1s ease 0.5s forwards;
+          animation: fadein 1s ease 0.5s forwards;
 }
 
 .color5:hover {
@@ -170,9 +218,12 @@
 
 .color6 {
   background-color: #f3dadb;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
   opacity: 0;
-  animation: fadein 1s ease 0.6s forwards;
+  -webkit-animation: fadein 1s ease 0.6s forwards;
+          animation: fadein 1s ease 0.6s forwards;
 }
 
 .color6:hover {
@@ -181,15 +232,24 @@
 
 .workscont {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-flow: row;
-  width: 85%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  width: 83%;
   min-width: 768px;
   height: 58%;
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
   pointer-events: none;
+  -webkit-transition: 0.8s ease;
+  -o-transition: 0.8s ease;
   transition: 0.8s ease;
 }
 
@@ -199,14 +259,21 @@
 .work3 {
   position: relative;
   min-width: 256px;
-  width: 31.1%;
+  width: 32.5%;
   height: 100%;
   cursor: pointer;
   pointer-events: all;
   opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  animation: fadein 1s ease 1s forwards;
-  transform: scale(0.88);
+  -webkit-animation: fadein 1s ease 1s forwards;
+          animation: fadein 1s ease 1s forwards;
+  -webkit-transform: scale(0.86);
+      -ms-transform: scale(0.86);
+          transform: scale(0.86);
+  -webkit-box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+          box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 
 
@@ -215,10 +282,18 @@
   font-family: 'Cormorant Garamond', serif;
   color: black;
   font-size: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   opacity: 0;
+  -webkit-transition: .3s ease 0.1s;
+  -o-transition: .3s ease 0.1s;
   transition: .3s ease 0.1s;
   top: 0; left: 0; bottom: 0; right: 0;
 }
@@ -227,12 +302,20 @@
 .interiors {
   position: absolute;
   font-size: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: 'Cormorant Garamond', serif;
   color: black;
   opacity: 0;
+  -webkit-transition: .3s ease 0.1s;
+  -o-transition: .3s ease 0.1s;
   transition: .3s ease 0.1s;
   top: 0; left: 0; bottom:0; right: 0;
 }
@@ -240,12 +323,20 @@
 .artwork {
   position: absolute;
   font-size: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: 'Cormorant Garamond', serif;
   color: black;
   opacity: 0;
+  -webkit-transition: .3s ease 0.1s;
+  -o-transition: .3s ease 0.1s;
   transition: .3s ease 0.1s;
   top: 0; left: 0; bottom: 0; right: 0;
 }
@@ -255,20 +346,36 @@
 }
 
 .transform {
-  box-shadow: 50px 50px 50px rgba(0,0,0,0.5);
-  transform: scale(1);
+  -webkit-box-shadow: 50px 50px 50px rgba(0,0,0,0.5);
+          box-shadow: 50px 50px 50px rgba(0,0,0,0.5);
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+          -webkit-backface-visibility: hidden; /* add to fix webkit bug jitter */
+          -webkit-transform: perspective(1000px);
+          filter: grayscale(1%)
 }
 
 .abouttxt {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 100%;
   height: 100%;
   visibility: hidden;
   opacity: 0;
+  -webkit-transition: .8s ease;
+  -o-transition: .8s ease;
   transition: .8s ease;
   pointer-events: none; /*makes the div underneath quickly clickable wihout waiting for the .8s fadeOut transition*/
 }
@@ -297,6 +404,8 @@
   width: 26.6vw;
   height: 70vh;
   opacity: 0;
+  -webkit-transition: .8s ease;
+  -o-transition: .8s ease;
   transition: .8s ease;
   z-index: 1;
   pointer-events: none;
@@ -389,9 +498,31 @@
   right: 0;
   margin: 4vh auto;
 }
+@-webkit-keyframes slideleft {
+  0%{
+    -webkit-transform: translateX(-600px);
+            transform: translateX(-600px);
+    opacity: 0;
+  }
+  100%{
+    opacity: 1
+  }
+}
 @keyframes slideleft {
   0%{
-    transform: translateX(-600px);
+    -webkit-transform: translateX(-600px);
+            transform: translateX(-600px);
+    opacity: 0;
+  }
+  100%{
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes slideup {
+  0%{
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
     opacity: 0;
   }
   100%{
@@ -401,11 +532,19 @@
 
 @keyframes slideup {
   0%{
-    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
     opacity: 0;
   }
   100%{
     opacity: 1
+  }
+}
+
+@-webkit-keyframes fadein {
+
+  100%{
+    opacity: 1;
   }
 }
 
@@ -416,10 +555,19 @@
   }
 }
 
+@-webkit-keyframes fadeshadow {
+
+  100%{
+    -webkit-box-shadow: 50px 50px 50px rgba(0,0,0,0.5);
+            box-shadow: 50px 50px 50px rgba(0,0,0,0.5);
+    }
+}
+
 @keyframes fadeshadow {
 
   100%{
-    box-shadow: 50px 50px 50px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 50px 50px 50px rgba(0,0,0,0.5);
+            box-shadow: 50px 50px 50px rgba(0,0,0,0.5);
     }
 }
 
@@ -483,7 +631,10 @@
   .header {
     width: 300px;
     height: 80px;
-    flex-flow: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
     margin-left: 0;
     margin: 0 auto;
   }
@@ -508,7 +659,10 @@
   }
 
   .main {
-    flex-flow: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
     margin: 50px auto 0;
     height: 750px;
   }
@@ -524,13 +678,21 @@
   }
 
   .workscont {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    flex-flow: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
     width: 50%;
     min-width: 0;
     height: 100%;
     pointer-events: none;
+    -webkit-transition: .8s ease;
+    -o-transition: .8s ease;
     transition: .8s ease;
   }
 
@@ -544,7 +706,8 @@
     cursor: pointer;
     pointer-events: all;
     opacity: 0;
-    animation: fadein 1s ease-out 1s forwards;
+    -webkit-animation: fadein 1s ease-out 1s forwards;
+            animation: fadein 1s ease-out 1s forwards;
   }
 
   .collabs {
@@ -574,10 +737,18 @@
 
   .abouttxtdevice {
     padding: 30px 10vw 0 ;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     height: 800px;
   }
 
@@ -595,8 +766,13 @@
   }
 
   .contactformdevice {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 30px 10vw;
   }
 
@@ -673,7 +849,10 @@
   .header {
     width: 80vw;
     height: 80px;
-    flex-flow: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
     margin-left: 0;
     margin: 0 auto;
   }
@@ -700,7 +879,10 @@
 
 
   .main {
-    flex-flow: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
     margin: 50px auto 0;
     height: 70vh;
   }
@@ -716,13 +898,21 @@
   }
 
   .workscont {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    flex-flow: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
     width: 60%;
     min-width: 0;
     height: 100%;
     pointer-events: none;
+    -webkit-transition: .8s ease;
+    -o-transition: .8s ease;
     transition: .8s ease;
   }
 
@@ -736,7 +926,8 @@
     cursor: pointer;
     pointer-events: all;
     opacity: 0;
-    animation: fadein 1s ease-out 1s forwards;
+    -webkit-animation: fadein 1s ease-out 1s forwards;
+            animation: fadein 1s ease-out 1s forwards;
   }
 
   .collabs {
@@ -765,10 +956,18 @@
 
   .abouttxtdevice {
     padding: 5vh 10vw 0 ;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     height: 85vh;
   }
 
@@ -786,8 +985,13 @@
   }
 
   .contactformdevice {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 30px 10vw;
   }
 
