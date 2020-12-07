@@ -184,9 +184,9 @@
   display: flex;
   justify-content: space-between;
   flex-flow: row;
-  width: 75%;
+  width: 85%;
   min-width: 768px;
-  height: 50%;
+  height: 58%;
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
   pointer-events: none;
@@ -198,15 +198,15 @@
 .work2,
 .work3 {
   position: relative;
-  height: 100%;
-  width: 30%;
   min-width: 256px;
+  width: 31.1%;
+  height: 100%;
   cursor: pointer;
   pointer-events: all;
   opacity: 0;
   transition: all 0.3s ease;
   animation: fadein 1s ease 1s forwards;
-  will-change: auto;
+  transform: scale(0.88);
 }
 
 
@@ -214,10 +214,10 @@
   position: absolute;
   font-family: 'Cormorant Garamond', serif;
   color: black;
-  width: 220px;
-  height: 70px;
-  font-size: 50px;
-  margin: auto;
+  font-size: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   opacity: 0;
   transition: .3s ease 0.1s;
   top: 0; left: 0; bottom: 0; right: 0;
@@ -226,28 +226,28 @@
 
 .interiors {
   position: absolute;
-  font-size: 50px;
+  font-size: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Cormorant Garamond', serif;
   color: black;
-  margin: auto;
   opacity: 0;
   transition: .3s ease 0.1s;
   top: 0; left: 0; bottom:0; right: 0;
-  width:  260px;
-  height: 70px;
 }
 
 .artwork {
   position: absolute;
-  font-size: 50px;
+  font-size: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Cormorant Garamond', serif;
   color: black;
-  margin: auto;
   opacity: 0;
   transition: .3s ease 0.1s;
   top: 0; left: 0; bottom: 0; right: 0;
-  width:  250px;
-  height: 70px;
 }
 
 .fadein {
@@ -256,8 +256,9 @@
 
 .transform {
   box-shadow: 50px 50px 50px rgba(0,0,0,0.5);
-  transform: scale(1.1);
+  transform: scale(1);
 }
+
 .abouttxt {
   position: absolute;
   display: flex;
@@ -548,22 +549,16 @@
 
   .collabs {
     font-size: 40px;
-    width: 170px;
-    height: 50px;
     opacity: 1;
   }
 
   .interiors{
     font-size: 40px;
-    width: 210px;
-    height: 50px;
     opacity: 1;
   }
 
   .artwork {
     font-size: 40px;
-    width: 200px;
-    height: 50px;
     opacity: 1;
   }
 
@@ -746,22 +741,16 @@
 
   .collabs {
     font-size: 30px;
-    width: 130px;
-    height: 40px;
     opacity: 1;
   }
 
   .interiors {
     font-size: 30px;
-    width: 155px;
-    height: 40px;
     opacity: 1;
   }
 
   .artwork {
     font-size: 30px;
-    width: 150px;
-    height: 40px;
     opacity: 1;
   }
 
