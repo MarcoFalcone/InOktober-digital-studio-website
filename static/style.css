@@ -403,7 +403,7 @@
   position: absolute;
   top: 0%;
   left: 45.5%;
-  padding-top: 10vh;
+  padding-top: 10.5vh;
   width: 28.4vw;
   height: 70vh;
   opacity: 0;
@@ -472,7 +472,7 @@
 
 .hideworks {
   opacity: 0;
-  visibility: hidden; /*per non farli riappare quando si passa sul contact form*/
+  visibility: hidden; /*per non far riapparire i works quando si passa sul contact form*/
 }
 
 .button:hover {
@@ -862,13 +862,12 @@
     -webkit-box-direction: normal;
     -ms-flex-flow: column;
     flex-flow: column;
-    align-items: center;
     margin-left: 0;
     margin: 0 auto;
   }
 
   .name {
-    font-size: 72px;
+    font-size: 19vw;
     margin-right: 0;
   }
 

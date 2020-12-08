@@ -4,6 +4,7 @@
   scrollbar-width: thin;
   scrollbar-color: black transparent;
   scrollbar-radius: 20px;
+  image-rendering: -webkit-optimize-contrast; /*fix blurry downscaled images on chorme*/
 }
 
 *::-webkit-scrollbar {
@@ -147,26 +148,33 @@
   opacity: 0;
   -webkit-animation: fadein 1s ease-out 1s forwards;
   animation: fadein 1s ease-out 1s forwards;
+  scroll-snap-type: y proximity; /*element at the top when scrolling*/
+  -ms-scroll-snap-type: y proximity;
 }
 
 img {
   height: 100%;
   margin-bottom: 30px;
+  scroll-snap-align: start; /*element at the top when scrolling*/
 }
 
 .long {
   width: 100%;
+  height: auto;
+  scroll-snap-align: start;
 }
 
 .square {
   width: auto;
   height: 100%;
+  scroll-snap-align: start;
 }
 
 video {
   width: auto;
   height: 100%;
   margin-bottom: 30px;
+  scroll-snap-align: start;
 }
 
 .backhome {

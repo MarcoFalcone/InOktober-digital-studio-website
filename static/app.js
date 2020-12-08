@@ -1,4 +1,4 @@
-//fadeoutpage//
+//fade out page//
 jQuery('.work1, .work2, .work3, .backhome, .backhome2').click(function(e) {
   e.preventDefault();
   newLocation = this.href;
@@ -9,7 +9,7 @@ function newpage() {
   window.location = newLocation;
 }
 
-//reloadpageonbackbutton//
+//reload page on backbutton//
 $(window).bind("pageshow", function(event) {
   if (event.originalEvent.persisted) {
     window.location.reload();
@@ -32,7 +32,7 @@ $('.down2').click(function(e) {
   }, 600);
 });
 
-//hideforaboutandcontact//
+//hide for about and contact//
 $(".about").hover(function() {
   $(".workscont").addClass("hideworks")
   $(".abouttxt").addClass("showabout")
@@ -42,7 +42,7 @@ $(".about").hover(function() {
 })
 $(".contact").hover(function() {
   $(".workscont").addClass("hideworks")
-  $(".contactform").addClass("pointerevent") //if pointer quickly hovers again on the form it interrupts the fade out because of the .8s transition, this fixes that making a clean fade out//
+  $(".contactform").addClass("pointerevent") //if cursor quickly hovers again on the form it interrupts the fade out because of the .8s transition, this fixes that making a clean fade out//
 }, function() {
   $(".workscont").removeClass("hideworks")
 })
