@@ -21,7 +21,12 @@
 
 .main {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row;
   flex-flow: row;
   height: 100%;
   width: 100%;
@@ -39,8 +44,11 @@
 
 .color1 {
   background-color: #d2c3d8;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
   opacity: 0;
+  -webkit-animation: fadein 1s ease 0.1s forwards;
   animation: fadein 1s ease 0.1s forwards;
 }
 
@@ -50,8 +58,11 @@
 
 .color2 {
   background-color: #f8cbd1;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
   opacity: 0;
+  -webkit-animation: fadein 1s ease 0.2s forwards;
   animation: fadein 1s ease 0.2s forwards;
 }
 
@@ -61,8 +72,11 @@
 
 .color3 {
   background-color: #f7e5d7;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
   opacity: 0;
+  -webkit-animation: fadein 1s ease 0.3s forwards;
   animation: fadein 1s ease 0.3s forwards;
 }
 
@@ -72,8 +86,11 @@
 
 .color4 {
   background-color: #f6f2ec;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
   opacity: 0;
+  -webkit-animation: fadein 1s ease 0.4s forwards;
   animation: fadein 1s ease 0.4s forwards;
 }
 
@@ -83,8 +100,11 @@
 
 .color5 {
   background-color: #c4bfdb;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
   opacity: 0;
+  -webkit-animation: fadein 1s ease 0.5s forwards;
   animation: fadein 1s ease 0.5s forwards;
 }
 
@@ -94,8 +114,11 @@
 
 .color6 {
   background-color: #f3dadb;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
   opacity: 0;
+  -webkit-animation: fadein 1s ease 0.6s forwards;
   animation: fadein 1s ease 0.6s forwards;
 }
 
@@ -105,8 +128,15 @@
 
 .container {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
   flex-flow: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 66.8vw;
   height: 98vh;
@@ -115,6 +145,7 @@
   right: 0;
   margin: 1vh auto;
   opacity: 0;
+  -webkit-animation: fadein 1s ease-out 1s forwards;
   animation: fadein 1s ease-out 1s forwards;
 }
 
@@ -146,12 +177,8 @@ video {
   text-decoration: none;
   color: black;
   opacity: 0;
-  transition: ease 0.5s;
+  -webkit-animation: fadein 1s ease-out 1s forwards;
   animation: fadein 1s ease-out 1s forwards;
-}
-
-.backhome:hover {
-  transform: scale(1.1);
 }
 
 .header {
@@ -162,8 +189,15 @@ video {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   opacity: 0;
+  -webkit-animation: fadein 1s ease-out 1s forwards;
   animation: fadein 1s ease-out 1s forwards;
   pointer-events: none;
+}
+
+@-webkit-keyframes fadein {
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadein {
@@ -173,10 +207,14 @@ video {
 }
 
 @media screen and (max-width: 1024px) {
-
   .main {
     position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     height: 110%;
     width: 100%;
@@ -213,7 +251,6 @@ video {
     width: 100%;
     height: auto;
   }
-
 
   .header {
     left: 0;
