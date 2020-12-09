@@ -1,3 +1,26 @@
+//form validation//
+$(document).ready(function() {
+  $('form').on('submit', function(e) {
+
+    $.ajax({
+      data : {
+        name : $('#name').val(),
+        email : $('#email').val(),
+        message : $('#message').val()
+    },
+      type : 'POST',
+      url : '/submit_form'
+  })
+
+    .done(function(data) {
+
+      $('#thankyou').show();
+  });
+
+  e.preventDefault();
+  });
+});
+
 //fade out page//
 jQuery('.work1, .work2, .work3, .backhome, .backhome2').click(function(e) {
   e.preventDefault();

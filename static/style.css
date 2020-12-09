@@ -425,6 +425,7 @@
 
 .contactform form {
   text-align: center;
+  padding: 0 5vw;
 }
 
 .formgroup {
@@ -436,7 +437,8 @@
 }
 
 .formgroup input {
-  width: 90%;
+  font-size: 2vh;
+  width: 100%;
   height: 4vh;
   overflow: visible;
   opacity: 0.8;
@@ -445,8 +447,9 @@
 }
 
 .formgroup textarea {
-  width: 90%;
-  height: 30vh;
+  font-size: 2vh;
+  width: 100%;
+  height: 20vh;
   overflow: visible;
   resize: none;
   opacity: 0.8;
@@ -457,12 +460,18 @@
 .button {
   font-size: 3vh;
   font-family: 'Cormorant Garamond', serif;
-  width: 30%;
+  width: 50%;
   height: 4vh;
   background: transparent;
   cursor: pointer;
   border: 1px solid slategrey;
   border-radius: 5px;
+}
+
+.thankyou {
+  margin-top: 3vh;
+  text-align: center;
+  font-size: 2.5vh;
 }
 
 .showabout {
@@ -882,7 +891,7 @@
   }
 
   .insta {
-    left: 46%;
+    left: 95%;
     bottom: -60%;
   }
 
