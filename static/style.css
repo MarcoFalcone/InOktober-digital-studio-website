@@ -1064,6 +1064,12 @@
     background: slategrey;
   }
 
+  .thankyoudevice {
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 2.5vh;
+  }
+
   .contact form {
     display: none;
   }

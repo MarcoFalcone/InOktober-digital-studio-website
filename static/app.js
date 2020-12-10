@@ -15,6 +15,7 @@ $(document).ready(function() {
     .done(function(data) {
 
       $('#thankyou').show();
+      $('#thankyoudevice').show();
   });
 
   e.preventDefault();
