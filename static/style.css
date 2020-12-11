@@ -901,7 +901,7 @@
     -ms-flex-flow: column;
     flex-flow: column;
     margin: 50px auto 0;
-    height: 70vh;
+    height: 466px;
   }
 
   .color1,
@@ -967,7 +967,7 @@
 
   .down1,
   .down2 {
-    margin: 4vh auto;
+    margin: 20px auto;
   }
 
   .abouttxt {
@@ -975,7 +975,7 @@
   }
 
   .abouttxtdevice {
-    padding: 5vh 10vw 0;
+    padding: 25px 10vw 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
