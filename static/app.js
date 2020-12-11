@@ -1,6 +1,5 @@
 //form validation//
-$(document).ready(function() {
-  $('form').on('submit', function(e) {
+  $('#form1').on('submit', function(e) {
 
     $.ajax({
       data : {
@@ -15,12 +14,34 @@ $(document).ready(function() {
     .done(function(data) {
 
       $('#thankyou').show();
-      $('#thankyoudevice').show();
+
   });
 
   e.preventDefault();
-  });
 });
+
+//device form validation//
+  $('#form2').on('submit', function(e) {
+
+    $.ajax({
+      data : {
+        name : $('#name2').val(),
+        email : $('#email2').val(),
+        message : $('#message2').val()
+    },
+      type : 'POST',
+      url : '/submit_form'
+  })
+
+    .done(function(data) {
+
+      $('#thankyou').show();
+
+  });
+
+  e.preventDefault();
+});
+
 
 //fade out page//
 jQuery('.work1, .work2, .work3, .backhome, .backhome2').click(function(e) {
@@ -52,7 +73,7 @@ $('.down2').click(function(e) {
   e.preventDefault();
 
   $('html, body').animate({
-    scrollTop: $("#form").offset().top - 0
+    scrollTop: $("#form2").offset().top - 0
   }, 600);
 });
 

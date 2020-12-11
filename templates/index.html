@@ -8,14 +8,13 @@
   <link rel="icon" type="image/png" sizes="32x32" href="static/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="static/favicons/favicon-16x16.png">
   <link rel="manifest" href="static/favicons/site.webmanifest">
-  <link rel="preload" href="style.css" as="style">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="static/style.css">
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   <link rel="preconnect" href="https://code.jquery.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link type="text/css" rel="stylesheet" href="static/style.css">
 </head>
 
 <body>
@@ -32,7 +31,7 @@
       <div class="contact">Contact
         <div class="contactform">
           <div class="mail">info.inoktober@gmail.com</div>
-          <form>
+          <form id="form1">
             <div class="formgroup">
               Name <input type="text" id="name" name="name" required>
             </div>
@@ -99,25 +98,24 @@
     </p>
   </div>
 
-  <img href="#form" class="down2" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/down_NxCSMI4E-CQ5M.png"></img>
+  <img class="down2" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/down_NxCSMI4E-CQ5M.png"></img>
 
-  <div class="contactformdevice" id="form">
+  <div class="contactformdevice">
     <div class="maildevice">info.inoktober@gmail.com</div>
-    <form>
+    <form id="form2">
       <div class="formgroupdevice">
-        Name <input type="text" id="name" name="name" required>
+        Name <input type="text" id="name2" name="name" required>
       </div>
 
       <div class="formgroupdevice">
-        Email <input type="email" id="email" name="email" required>
+        Email <input type="email" id="email2" name="email" required>
       </div>
 
       <div class="formgroupdevice">
-        Message <textarea name="message" id="message" required></textarea>
+        Message <textarea name="message" id="message2" required></textarea>
       </div>
 
       <button class="buttondevice" type="submit">Submit</button>
-      <div class="thankyoudevice" id="thankyoudevice" style="display: none">Thanks! I will get in touch with you shortly</div>
     </form>
   </div>
 
