@@ -474,6 +474,12 @@
   font-size: 2.5vh;
 }
 
+.thankyoudevice {
+  margin-top: 3vh;
+  text-align: center;
+  font-size: 2.5vh;
+}
+
 .showabout {
   visibility: visible;
   opacity: 1;
@@ -1054,20 +1060,15 @@
 
   .buttondevice {
     font-size: 25px;
-    width: 40vw;
+    width: 150px;
     height: 40px;
+    margin: 0 auto;
     font-family: 'Cormorant Garamond', serif;
   }
 
   .buttondevice:active {
     color: white;
     background: slategrey;
-  }
-
-  .thankyoudevice {
-    margin-top: 3vh;
-    text-align: center;
-    font-size: 2.5vh;
   }
 
   .contact form {
