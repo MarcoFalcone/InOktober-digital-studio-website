@@ -35,7 +35,8 @@
 
     .done(function(data) {
 
-      $('#thankyou').show();
+      $('#buttondevice').hide();
+      $('#thankyoudevice').show();
 
   });
 
