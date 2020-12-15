@@ -173,7 +173,7 @@ img {
 
 video {
   width: auto;
-  min-height: 100%;
+  height: 100%;
   margin-bottom: 30px;
   scroll-snap-align: start;
 }
