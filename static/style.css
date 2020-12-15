@@ -8,7 +8,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 580px;
+  width: 30.2vw;
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
@@ -16,11 +16,11 @@
 }
 
 .name {
-  font-size: 87px;
+  font-size: 4.5vw;
   font-family: 'Cormorant Garamond', serif;
   cursor: default;
-  height: 88px;
-  margin-right: 5px;
+  height: 4.62vw;
+  margin-right: 0.26vw;
   opacity: 0;
   -webkit-animation: fadein 1s ease 1s forwards;
   animation: fadein 1s ease 1s forwards;
@@ -29,7 +29,7 @@
 .line1 {
   height: 1px;
   background: black;
-  width: 300px;
+  width: 50%;
   position: absolute;
   top: 95%;
   left: -8%;
@@ -40,16 +40,15 @@
 .line2 {
   border-left: 1px solid black;
   background: black;
-  height: 80px;
+  height: 90%;
   position: absolute;
-  z-index: 1;
   top: 50%;
   -webkit-animation: slideup 2s ease;
   animation: slideup 2s ease;
 }
 
 .name2 {
-  font-size: 30px;
+  font-size: 1.6vw;
   font-family: 'Cormorant Garamond', serif;
   cursor: default;
   opacity: 0;
@@ -59,9 +58,9 @@
 
 .insta {
   position: absolute;
-  left: -5.5%;
+  left: -4.5%;
   bottom: 10%;
-  height: 25px;
+  height: 2.14vh;
   width: auto;
   opacity: 0;
   -webkit-transition: ease 0.5s;
@@ -81,26 +80,26 @@
   display: -ms-flexbox;
   display: flex;
   top: 95%;
-  left: -11.5%;
+  left: -11.7%;
   -webkit-transition: .8s ease;
   -o-transition: .8s ease;
   transition: .8s ease;
 }
 
 .about {
-  font-size: 25px;
-  height: 20px;
+  font-size: 1.3vw;
+  height: 2vh;
   font-family: 'Cormorant Garamond', serif;
   cursor: crosshair;
-  margin-right: 7px;
+  margin-right: 0.5vw;
   opacity: 0;
   -webkit-animation: fadein 1s ease 1s forwards;
   animation: fadein 1s ease 1s forwards;
 }
 
 .contact {
-  font-size: 25px;
-  height: 20px;
+  font-size: 1.3vw;
+  height: 2vh;
   font-family: 'Cormorant Garamond', serif;
   cursor: crosshair;
   opacity: 0;
@@ -372,7 +371,7 @@
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   height: 100%;
   visibility: hidden;
@@ -384,19 +383,19 @@
 }
 
 .abouttxt p {
-  margin-right: 4vw;
-  font-size: 30px;
+  font-size: 1.5vw;
   text-align: justify;
-  width: 800px;
+  width: 36.4vw;
   top: 10%;
   font-family: 'Cormorant Garamond', serif;
 }
 
-.img {
-  margin-left: 10vw;
-  width: 300px;
-  height: 400px;
-  opacity: 0.8;
+.imgabout {
+  width: auto;
+  height: 60%;
+  padding: 5px;
+  border: 1px solid black;
+  margin-right: 7vw;
 }
 
 .contactform {
@@ -469,12 +468,6 @@
 }
 
 .thankyou {
-  margin-top: 3vh;
-  text-align: center;
-  font-size: 2.5vh;
-}
-
-.thankyoudevice {
   margin-top: 3vh;
   text-align: center;
   font-size: 2.5vh;
@@ -591,63 +584,6 @@
   }
 }
 
-/*1440p*/
-@media screen and (min-width: 2560px) {
-  .header {
-    width: 710px;
-    margin-left: 0;
-    margin: 0 auto;
-    margin-left: 35.8%;
-  }
-
-  .name {
-    font-size: 113px;
-    height: 114px;
-    margin-right: 5px;
-  }
-
-  .line1 {
-    width: 400px;
-  }
-
-  .line2 {
-    height: 100px;
-    top: 50%;
-  }
-
-  .name2 {
-    font-size: 40px;
-  }
-
-  .bar {
-    top: 95%;
-    left: -11.3%;
-  }
-
-  .about {
-    font-size: 30px;
-    height: 20px;
-  }
-
-  .contact {
-    font-size: 30px;
-    height: 20px;
-  }
-
-  .insta {
-    left: -4.5%;
-  }
-
-  .abouttxt p {
-    font-size: 40px;
-  }
-
-  .img {
-    width: 400px;
-    height: 500px;
-  }
-}
-
 /*tablet*/
 @media screen and (max-width: 1024px) {
   .header {
@@ -678,6 +614,7 @@
   .insta {
     left: 92%;
     bottom: -60%;
+    height: 25px;
   }
 
   .main {
@@ -790,6 +727,8 @@
     width: 300px;
     height: 300px;
     opacity: 0.8;
+    padding: 5px;
+    border: 1px solid black;
   }
 
   .contactformdevice {
@@ -888,7 +827,7 @@
 
   .name2 {
     position: absolute;
-    font-size: 20px;
+    font-size: 5.3vw;
     top: 70px;
   }
 
@@ -1060,15 +999,20 @@
 
   .buttondevice {
     font-size: 25px;
-    width: 150px;
+    width: 40vw;
     height: 40px;
-    margin: 0 auto;
     font-family: 'Cormorant Garamond', serif;
   }
 
   .buttondevice:active {
     color: white;
     background: slategrey;
+  }
+
+  .thankyoudevice {
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 2.5vh;
   }
 
   .contact form {

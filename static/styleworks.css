@@ -153,7 +153,6 @@
 }
 
 img {
-  height: 100%;
   margin-bottom: 30px;
   scroll-snap-align: start; /*element at the top when scrolling*/
 }
@@ -166,21 +165,24 @@ img {
 
 .square {
   width: auto;
+  min-height: 100%; /*fix chrome scaling*/
   height: 100%;
   scroll-snap-align: start;
 }
 
+
 video {
   width: auto;
-  height: 100%;
+  min-height: 100%;
   margin-bottom: 30px;
   scroll-snap-align: start;
 }
 
 .backhome {
   position: absolute;
-  width: 40px;
-  margin: 5px;
+  right: 0;
+  width: 1.5vw;
+  padding: 5px 10px;
   height: auto;
   text-decoration: none;
   color: black;
@@ -195,7 +197,7 @@ video {
   width: 16.7%;
   color: black;
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 1.5vw;
   opacity: 0;
   -webkit-animation: fadein 1s ease-out 1s forwards;
   animation: fadein 1s ease-out 1s forwards;
@@ -239,6 +241,7 @@ video {
 
   .backhome {
     position: fixed;
+    width: 30px;
   }
 
   *::-webkit-scrollbar {
@@ -267,10 +270,5 @@ video {
     width: 66.8vw;
     text-align: center;
     font-size: 15px;
-  }
-
-  .backhome {
-    width: 30px;
-    margin: 5px;
   }
 }
