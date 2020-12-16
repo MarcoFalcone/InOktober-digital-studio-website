@@ -734,7 +734,6 @@
 
   .imgdevice {
     width: 300px;
-    height: 300px;
     padding: 5px;
     border: 1px solid black;
   }
@@ -942,7 +941,6 @@
 
   .imgdevice {
     width: 100%;
-    height: auto;
   }
 
   .contactformdevice {
