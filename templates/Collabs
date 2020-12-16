@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -42,3 +43,49 @@
    </body>
 
   </html>
+=======
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Collabs</title>
+  <link type="text/css" rel="stylesheet" href="static/styleworks.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="color1"></div>
+    <div class="color2"></div>
+    <div class="color3"></div>
+    <div class="color4"></div>
+    <div class="color5"></div>
+    <div class="color6"></div>
+    <p class="header">Kitchen and livingroom for two private houses in Amsterdam and Amstelveen. Designed by Numinow, rendered by InOktober.</p>
+  </div>
+
+  <div class="container">
+    <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index5_Np1w5eAkLAytx.jpg">
+    <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index_f1wYvf-Mdk7aH.jpg">
+    <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index4_gN6dCQmuPI9vZ.jpg">
+    <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index6__p1LJk2X7-tRx.jpg">
+    <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index3_uvZVYxr94khGb.jpg">
+    <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/index2_bjXXt2xX0HtO.jpg">
+    <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/KITCHEN__ZBXn06TAcKzch.png">
+    <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/LIVING_ROOM_3_63JdvAdG3Xh2r.png">
+    <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/living_room_done__F_xXy5N4803h.png">
+  </div>
+
+  <a href="/" class="backhome" target="_self"><img class="backhome" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/home_Id-kwRpUtIBK4.png?tr=h-40,w-40"></a>
+
+      <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+      <script src="static/app.js"></script>
+
+   </body>
+
+  </html>
+>>>>>>> eea77b7da343708ba3ebf322b4e2c33326482151
