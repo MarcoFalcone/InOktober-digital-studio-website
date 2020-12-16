@@ -19,7 +19,7 @@
     <div class="color4"></div>
     <div class="color5"></div>
     <div class="color6"></div>
-    <p class="header">Kitchen and livingroom for two private house in Amsterdam and Amstelveen. Designed by Numinow, rendered by InOktober.</p>
+    <p class="header">Kitchen and livingroom for two private houses in Amsterdam and Amstelveen. Designed by Numinow, rendered by InOktober.</p>
   </div>
 
   <div class="container">
@@ -34,7 +34,7 @@
     <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Collabs/living_room_done__F_xXy5N4803h.png">
   </div>
 
-  <a href="/" class="backhome" target="_self"><img class="backhome" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/home_Id-kwRpUtIBK4.png"></a>
+  <a href="/" class="backhome" target="_self"><img class="backhome" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/home_Id-kwRpUtIBK4.png?tr=h-40,w-40"></a>
 
       <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
       <script src="static/app.js"></script>

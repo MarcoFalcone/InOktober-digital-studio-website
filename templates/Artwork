@@ -36,7 +36,7 @@
       <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Artwork/man_CGDOa6zQRzo2e.png">
     </div>
 
-    <a href="/" class="backhome"><img class="backhome" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/home_Id-kwRpUtIBK4.png"></a>
+    <a href="/" class="backhome"><img class="backhome" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/home_Id-kwRpUtIBK4.png?tr=h-40,w-40"></a>
 
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="static/app.js"></script>
