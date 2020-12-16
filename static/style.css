@@ -510,6 +510,10 @@
   margin: 4vh auto;
 }
 
+.show {
+  opacity: 1;
+}
+
 @-webkit-keyframes slideleft {
   0% {
     -webkit-transform: translateX(-600px);
@@ -701,24 +705,17 @@
 
   .abouttxtdevice {
     padding: 30px 10vw 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    display: block;
+    text-align: center;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column;
-    flex-flow: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+    flex-direction: column;
     align-items: center;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    height: 800px;
   }
 
   .abouttxtdevice p {
     font-size: 30px;
     width: 100%;
+    margin-top: 30px;
     text-align: justify;
     font-family: 'Cormorant Garamond', serif;
   }
@@ -726,7 +723,6 @@
   .imgdevice {
     width: 300px;
     height: 300px;
-    opacity: 0.8;
     padding: 5px;
     border: 1px solid black;
   }
@@ -922,18 +918,6 @@
 
   .abouttxtdevice {
     padding: 25px 10vw 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column;
-    flex-flow: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
     height: 700px;
   }
 
@@ -947,7 +931,6 @@
   .imgdevice {
     width: 100%;
     height: auto;
-    opacity: 0.8;
   }
 
   .contactformdevice {
