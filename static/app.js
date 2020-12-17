@@ -1,3 +1,5 @@
+console.log("%c Website developed by Marco Falcone: https://marcofalcone.dev ", "color: slategrey; font-size: 1rem");
+
 //form validation//
   $('#form1').on('submit', function(e) {
 
