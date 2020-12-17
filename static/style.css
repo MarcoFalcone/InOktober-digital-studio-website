@@ -71,6 +71,9 @@
   transition: ease 0.2s;
   -webkit-animation: fadein 1s ease 1s forwards;
   animation: fadein 1s ease 1s forwards;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .insta:hover {
