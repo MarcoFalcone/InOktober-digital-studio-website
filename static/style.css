@@ -71,9 +71,6 @@
   transition: ease 0.2s;
   -webkit-animation: fadein 1s ease 1s forwards;
   animation: fadein 1s ease 1s forwards;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 .insta:hover {
@@ -407,8 +404,12 @@
   margin-right: 7vw;
 }
 
-.contactform {
+.contactcont {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   top: 0%;
   left: 45.5%;
   padding-top: 10.5vh;
@@ -427,59 +428,10 @@
 }
 
 .mail {
-  text-align: center;
-  font-size: 2.5vh;
-}
-
-.contactform form {
-  text-align: center;
-  padding: 0 5vw;
-}
-
-.formgroup {
+  text-decoration: none;
+  color: #2c4964;
   font-size: 3vh;
-  font-family: 'Cormorant Garamond', serif;
-  margin-bottom: 3vh;
-  margin-top: 3vh;
-  text-align: center;
-}
-
-.formgroup input {
-  font-size: 2vh;
-  width: 100%;
-  height: 4vh;
-  overflow: visible;
-  opacity: 0.8;
-  border: 1px solid slategrey;
-  border-radius: 5px;
-}
-
-.formgroup textarea {
-  font-size: 2vh;
-  width: 100%;
-  height: 20vh;
-  overflow: visible;
-  resize: none;
-  opacity: 0.8;
-  border: 1px solid slategrey;
-  border-radius: 5px;
-}
-
-.button {
-  font-size: 3vh;
-  font-family: 'Cormorant Garamond', serif;
-  width: 50%;
-  height: 4vh;
-  background: transparent;
-  cursor: pointer;
-  border: 1px solid slategrey;
-  border-radius: 5px;
-}
-
-.thankyou {
-  margin-top: 3vh;
-  text-align: center;
-  font-size: 2.5vh;
+  margin-top: 20px;
 }
 
 .showabout {
@@ -497,7 +449,7 @@
   background: slategrey;
 }
 
-.contact:hover .contactform {
+.contact:hover .contactcont {
   opacity: 1;
 }
 
@@ -505,7 +457,7 @@
   display: none;
 }
 
-.contactformdevice {
+.contactcontdevice {
   display: none;
 }
 
@@ -521,6 +473,16 @@
 
 .show {
   opacity: 1;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  -webkit-animation: fadein 1s ease-out 1s forwards;
+          animation: fadein 1s ease-out 1s forwards;
 }
 
 @-webkit-keyframes slideleft {
@@ -743,7 +705,7 @@
     border: 1px solid black;
   }
 
-  .contactformdevice {
+  .contactcontdevice {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -751,64 +713,17 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding: 30px 10vw;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    font-size: 30px;
   }
 
   .maildevice {
-    font-style: italic;
-    text-align: center;
-    width: 60vw;
-    margin: auto;
-  }
-
-  .contactformdevice form {
-    text-align: center;
-  }
-
-  .formgroupdevice {
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-top: 25px;
-    text-align: center;
-    font-family: 'Cormorant Garamond', serif;
-  }
-
-  .formgroupdevice input {
-    width: 100%;
-    height: 40px;
-    font-size: 25px;
-    overflow: visible;
-    border: 1px solid slategrey;
-    border-radius: 5px;
-  }
-
-  .formgroupdevice textarea {
-    width: 100%;
-    height: 250px;
-    font-size: 25px;
-    overflow: visible;
-    resize: none;
-    border: 1px solid slategrey;
-    border-radius: 5px;
-  }
-
-  .buttondevice {
-    font-size: 25px;
-    width: 40vw;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid slategrey;
-    margin: 0 auto;
-    font-family: 'Cormorant Garamond', serif;
-  }
-
-  .buttondevice:active {
-    color: white;
-    background: slategrey;
-  }
-
-  .contact form {
-    display: none;
+    text-decoration: none;
+    color: #2c4964;
+    font-size: 3vh;
+    margin-top: 20px;
   }
 
   .line1 {
@@ -817,6 +732,10 @@
 
   .line2 {
     display: none;
+  }
+
+  .footer {
+    position: relative;
   }
 }
 
@@ -934,11 +853,11 @@
 
   .abouttxtdevice {
     padding: 25px 10vw 0;
-    height: 700px;
+    height: 850px;
   }
 
   .abouttxtdevice p {
-    font-size: 23px;
+    font-size: 28px;
     width: 100%;
     text-align: justify;
     font-family: 'Cormorant Garamond', serif;
@@ -947,76 +866,6 @@
   .imgdevice {
     width: 100%;
     height: auto;
-  }
-
-  .contactformdevice {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding: 30px 10vw;
-  }
-
-  .maildevice {
-    font-style: italic;
-    text-align: center;
-    width: 60vw;
-  }
-
-  .contactformdevice form {
-    text-align: center;
-  }
-
-  .formgroupdevice {
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-top: 25px;
-    text-align: center;
-    font-family: 'Cormorant Garamond', serif;
-  }
-
-  .formgroupdevice input {
-    width: 100%;
-    height: 40px;
-    font-size: 25px;
-    overflow: visible;
-    border: 1px solid slategrey;
-    border-radius: 5px;
-  }
-
-  .formgroupdevice textarea {
-    width: 100%;
-    height: 250px;
-    font-size: 25px;
-    overflow: visible;
-    resize: none;
-    border: 1px solid slategrey;
-    border-radius: 5px;
-  }
-
-  .buttondevice {
-    font-size: 25px;
-    width: 40vw;
-    height: 40px;
-    font-family: 'Cormorant Garamond', serif;
-  }
-
-  .buttondevice:active {
-    color: white;
-    background: slategrey;
-  }
-
-  .thankyoudevice {
-    margin-top: 3vh;
-    text-align: center;
-    font-size: 2.5vh;
-  }
-
-  .contact form {
-    display: none;
   }
 
   .line1 {

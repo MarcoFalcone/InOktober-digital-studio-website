@@ -1,51 +1,5 @@
 console.log("%c Website developed by Marco Falcone: https://marcofalcone.dev ", "color: slategrey; font-size: 1rem");
 
-//form validation//
-  $('#form1').on('submit', function(e) {
-
-    $.ajax({
-      data : {
-        name : $('#name').val(),
-        email : $('#email').val(),
-        message : $('#message').val()
-    },
-      type : 'POST',
-      url : '/submit_form'
-  })
-
-    .done(function(data) {
-
-      $('#thankyou').show();
-
-  });
-
-  e.preventDefault();
-});
-
-//device form validation//
-  $('#form2').on('submit', function(e) {
-
-    $.ajax({
-      data : {
-        name : $('#name2').val(),
-        email : $('#email2').val(),
-        message : $('#message2').val()
-    },
-      type : 'POST',
-      url : '/submit_form'
-  })
-
-    .done(function(data) {
-
-      $('#buttondevice').hide();
-      $('#thankyoudevice').show();
-
-  });
-
-  e.preventDefault();
-});
-
-
 //fade out page//
 jQuery('.work1, .work2, .work3, .backhome, .backhome2').click(function(e) {
   e.preventDefault();
@@ -76,7 +30,7 @@ $('.down2').click(function(e) {
   e.preventDefault();
 
   $('html, body').animate({
-    scrollTop: $("#form2").offset().top - 0
+    scrollTop: $("#form").offset().top - 0
   }, 600);
 });
 
@@ -90,12 +44,12 @@ $(".about").hover(function() {
 })
 $(".contact").hover(function() {
   $(".workscont").addClass("hideworks")
-  $(".contactform").addClass("pointerevent") //if cursor quickly hovers again on the form it interrupts the fade out because of the .8s transition, this fixes that making a clean fade out//
+  $(".contactcont").addClass("pointerevent") //if cursor quickly hovers again on the form it interrupts the fade out because of the .8s transition, this fixes that making a clean fade out//
 }, function() {
   $(".workscont").removeClass("hideworks")
 })
-$(".contactform").hover(function() {}, function() {
-  $(".contactform").removeClass("pointerevent")
+$(".contactcont").hover(function() {}, function() {
+  $(".contactcont").removeClass("pointerevent")
 })
 
 //show title and transform//
