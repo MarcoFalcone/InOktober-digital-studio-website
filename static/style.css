@@ -431,6 +431,7 @@
   text-decoration: none;
   color: #2c4964;
   font-size: 3vh;
+  font-style: italic;
   margin-top: 20px;
 }
 
@@ -717,12 +718,14 @@
     justify-content: center;
     height: 400px;
     font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
   }
 
   .maildevice {
     text-decoration: none;
     color: #2c4964;
     font-size: 3vh;
+    font-style: italic;
     margin-top: 20px;
   }
 
