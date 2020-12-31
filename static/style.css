@@ -399,9 +399,8 @@
 .imgabout {
   width: auto;
   height: 60%;
-  padding: 5px;
-  border: 1px solid black;
   margin-right: 7vw;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
 .contactcont {
@@ -702,8 +701,7 @@
   .imgdevice {
     width: 300px;
     height: 300px;
-    padding: 5px;
-    border: 1px solid black;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
   }
 
   .contactcontdevice {
