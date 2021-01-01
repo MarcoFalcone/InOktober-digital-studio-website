@@ -30,7 +30,7 @@ $('.down2').click(function(e) {
   e.preventDefault();
 
   $('html, body').animate({
-    scrollTop: $("#form").offset().top - 0
+    scrollTop: $("#mail").offset().top - 0
   }, 600);
 });
 
