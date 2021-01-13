@@ -1,5 +1,11 @@
 console.log("%c Website developed by Marco Falcone: https://marcofalcone.dev ", "color: slategrey; font-size: 1rem");
 
+//loader//
+$(window).on('load', function(){
+  $('.loader').fadeOut(1000);
+  $('.content').addClass('show');
+});
+
 //fade out page//
 jQuery('.work1, .work2, .work3, .backhome, .backhome2').click(function(e) {
   e.preventDefault();
