@@ -92,6 +92,7 @@
 
 .content {
   opacity: 0;
+  transition: .8s;
 }
 
 .header {
@@ -651,6 +652,22 @@
 
 /*tablet*/
 @media screen and (max-width: 1024px) {
+
+  #main {
+    flex-direction: column;
+    width: 30vw;
+  }
+
+  #color1,
+  #color2,
+  #color3,
+  #color4,
+  #color5,
+  #color6 {
+    height: 16.66666667%;
+    width: 100%;
+  }
+
   .header {
     width: 300px;
     height: 80px;
