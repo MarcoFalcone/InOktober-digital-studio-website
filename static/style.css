@@ -530,9 +530,12 @@
 .footer {
   position: absolute;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   bottom: 0;
-  width: 100%;
+  right: 0;
+  left: 0;
+  width: 20vw;
+  margin: auto;
 }
 
 
@@ -758,6 +761,7 @@
     position: relative;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 }
 
