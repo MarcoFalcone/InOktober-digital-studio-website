@@ -3,7 +3,7 @@ console.log("%c Website developed by Marco Falcone: https://marcofalcone.dev ", 
 //loader//
 $(window).on('load', function(){
   $('.loader').fadeOut(1000);
-  $('.content').addClass('show');
+  $('.content').addClass('showcontent');
 });
 
 //fade out page//
