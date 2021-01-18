@@ -530,12 +530,13 @@
 .footer {
   position: absolute;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   bottom: 0;
-  right: 0;
-  left: 0;
-  width: 20vw;
-  margin: auto;
+  width: 100%;
+}
+
+.footer span {
+  margin-left: 10px;
 }
 
 
@@ -761,7 +762,6 @@
     position: relative;
     flex-direction: column;
     align-items: center;
-    width: 100%;
   }
 }
 
