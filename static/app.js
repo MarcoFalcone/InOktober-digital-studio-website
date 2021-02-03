@@ -6,18 +6,16 @@ $(window).on('load', function(){
   $('.content').addClass('showcontent');
 });
 
-//fade out pages
-$(document).ready(function() {
-  $('.work1, .work2, .work3, .backhome, .backhome2').click(function(e) {
-    e.preventDefault();
-    newLocation = this.href;
-    $('body').fadeOut(newpage);
-  });
-
-  function newpage() {
-    window.location = newLocation;
-  }
+//fade out page//
+jQuery('.work1, .work2, .work3, .backhome, .backhome2').click(function(e) {
+  e.preventDefault();
+  newLocation = this.href;
+  jQuery('body').fadeOut(newpage);
 });
+
+function newpage() {
+  window.location = newLocation;
+}
 
 //reload page on backbutton//
 $(window).bind("pageshow", function(event) {
@@ -55,12 +53,8 @@ $(document).ready(function(){
   })
   $(".contact").hover(function() {
     $(".workscont").addClass("hideworks")
-    $(".contactcont").addClass("pointerevent") //if cursor quickly hovers again on the form it interrupts the fade out because of the .8s transition, this fixes that making a clean fade out//
   }, function() {
     $(".workscont").removeClass("hideworks")
-  })
-  $(".contactcont").hover(function() {}, function() {
-    $(".contactcont").removeClass("pointerevent")
   })
 });
 

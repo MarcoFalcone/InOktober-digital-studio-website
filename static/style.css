@@ -478,10 +478,6 @@
   pointer-events: none;
 }
 
-.pointerevent {
-  pointer-events: all;
-}
-
 .mail {
   text-decoration: none;
   color: #2c4964;
@@ -497,7 +493,6 @@
 
 .hideworks {
   opacity: 0;
-  visibility: hidden; /*per non far riapparire i works quando si passa sul contact form*/
 }
 
 .button:hover {
@@ -507,6 +502,7 @@
 
 .contact:hover .contactcont {
   opacity: 1;
+  pointer-events: all;
 }
 
 .abouttxtdevice {
@@ -710,7 +706,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-            height: auto;
+
   }
 
   .abouttxtdevice p {
@@ -879,6 +875,7 @@
 
   .abouttxtdevice {
     padding: 25px 10vw 0;
+    height: 850px;
   }
 
   .abouttxtdevice p {
