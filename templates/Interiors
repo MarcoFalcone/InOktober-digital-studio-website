@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <title>Interiors</title>
   <link type="text/css" rel="stylesheet" href="static/styleworks.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="static/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/favicons/favicon-16x16.png">
+  <link rel="manifest" href="static/favicons/site.webmanifest">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,24 +24,24 @@
     <div class="color4"></div>
     <div class="color5"></div>
     <div class="color6"></div>
-    <p class="header">A series of personal projects designed and rendered by InOktober.</p>
+    <h1 class="header">A series of personal projects designed and rendered by InOktober.</h1>
    </div>
 
    <div class="container">
-     <img class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/BANCONE_BAR_TgC6s17psyZoi.png">
-     <img class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/pink_bath_vXfLjt5Ap_ahn.png">
-     <img class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/pscina_PMhEg9mnPTqo2.png">
-     <img class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/popshopfinitoultima_4YwtuYfEfn4o.png">
-     <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/corner1_vh5tSE1h1CC5_.png">
-     <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/corner_2_dfyDWAwPiLMB2.png">
-     <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/corner_3_8witiBgaFmHB.png">
-     <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/Corner_1_C7iSFXAVJKfGz.png">
-     <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/index_qb9pPwu3ZS8W.jpg">
-     <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/TYLKO_RENDER_X8Q38TMpPO8V.png">
-     <img class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/WhatsApp_Image_2020-12-03_at_15.11.13_FrtaPT2QHNmy.jpeg">
+     <img alt="" class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/BANCONE_BAR_TgC6s17psyZoi.png">
+     <img alt="" class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/pink_bath_vXfLjt5Ap_ahn.png">
+     <img alt="" class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/pscina_PMhEg9mnPTqo2.png">
+     <img alt="" class="long" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/popshopfinitoultima_4YwtuYfEfn4o.png">
+     <img alt="" class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/corner1_vh5tSE1h1CC5_.png">
+     <img alt="" class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/corner_2_dfyDWAwPiLMB2.png">
+     <img alt="" class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/corner_3_8witiBgaFmHB.png">
+     <img alt="" class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/Corner_1_C7iSFXAVJKfGz.png">
+     <img alt="" class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/index_qb9pPwu3ZS8W.jpg">
+     <img alt="" class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/TYLKO_RENDER_X8Q38TMpPO8V.png">
+     <img alt="" class="square" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/Interiors/WhatsApp_Image_2020-12-03_at_15.11.13_FrtaPT2QHNmy.jpeg">
    </div>
 
-   <a href="/" class="backhome"><img class="backhome" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/home_Id-kwRpUtIBK4.png?tr=h-40,w-40"></a>
+   <a href="/" class="backhome"><img alt="" class="backhome" src="https://ik.imagekit.io/7ol7k87qcca/InOktober/home_Id-kwRpUtIBK4.png?tr=h-40,w-40"></a>
 
    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
    <script src="static/app.js"></script>

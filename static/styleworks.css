@@ -4,7 +4,8 @@
   scrollbar-width: thin;
   scrollbar-color: black transparent;
   scrollbar-radius: 20px;
-  image-rendering: -webkit-optimize-contrast; /*fix blurry downscaled images on chorme*/
+  image-rendering: -webkit-optimize-contrast;
+  /*fix blurry downscaled images on chorme*/
 }
 
 *::-webkit-scrollbar {
@@ -148,13 +149,15 @@
   opacity: 0;
   -webkit-animation: fadein 1s ease-out 1s forwards;
   animation: fadein 1s ease-out 1s forwards;
-  scroll-snap-type: y proximity; /*element at the top when scrolling*/
+  scroll-snap-type: y proximity;
+  /*element at the top when scrolling*/
   -ms-scroll-snap-type: y proximity;
 }
 
 img {
   margin-bottom: 30px;
-  scroll-snap-align: start; /*element at the top when scrolling*/
+  scroll-snap-align: start;
+  /*element at the top when scrolling*/
 }
 
 .long {
@@ -165,11 +168,11 @@ img {
 
 .square {
   width: auto;
-  min-height: 100%; /*fix chrome scaling*/
+  min-height: 100%;
+  /*fix chrome scaling*/
   height: 100%;
   scroll-snap-align: start;
 }
-
 
 video {
   width: auto;
@@ -198,6 +201,7 @@ video {
   color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5vw;
+  font-weight: normal;
   opacity: 0;
   -webkit-animation: fadein 1s ease-out 1s forwards;
   animation: fadein 1s ease-out 1s forwards;

@@ -26,14 +26,14 @@ $(window).bind("pageshow", function(event) {
 
 //hide anchor-link on the url on mobile and smoothscroll//
 $(document).ready(function(){
-  $('.down1').click(function(e) {
+  $('#anchor1').click(function(e) {
     e.preventDefault();
 
     $('html, body').animate({
       scrollTop: $("#txt").offset().top - 0
     }, 600);
   });
-  $('.down2').click(function(e) {
+  $('#anchor2').click(function(e) {
     e.preventDefault();
 
     $('html, body').animate({
