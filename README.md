@@ -1,4 +1,4 @@
-# InOktober-digital-studio-website
+# InOktober digital studio
 
 A website to showcase the 3d interior design and artwork made by my little sister's digital studio based in Amsterdam called InOktober.
 
